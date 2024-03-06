@@ -234,3 +234,70 @@ public class Add2Integers {  // Save as "Add2Integers.java"
    }
 }
 ```
+
+## Exemple de class Animale:
+```
+public class Animal {
+    // Attributs
+    String nom;
+    int age;
+}
+```
+
+## Exemple de class Voiture:
+```
+public class Voiture {
+    // Attributs
+    String marque;
+    String modele;
+    int anneeFabrication;
+
+    // Méthode pour démarrer la voiture
+    public void demarrer() {
+        System.out.println("La voiture démarre !");
+    }
+
+    // Méthode pour afficher les détails de la voiture
+    public void afficherDetails() {
+        System.out.println("Marque : " + marque);
+        System.out.println("Modèle : " + modele);
+        System.out.println("Année de fabrication : " + anneeFabrication);
+    }
+}
+```
+## Exemple de class CompteBancaire:
+```
+public class CompteBancaire {
+    // Attributs
+    private double solde;
+
+    // Méthode pour déposer de l'argent sur le compte
+    public void deposerArgent(double montant) {
+        solde += montant;
+    }
+
+    // Méthode pour retirer de l'argent du compte
+    public void retirerArgent(double montant) {
+        if (montant <= solde) {
+            solde -= montant;
+            System.out.println("Retrait de " + montant + " effectué avec succès.");
+        } else {
+            System.out.println("Solde insuffisant pour effectuer le retrait.");
+        }
+    }
+
+    // Méthode pour afficher le solde du compte
+    public void afficherSolde() {
+        System.out.println("Solde du compte : " + solde);
+    }
+}
+```
+## Exemple de class Animale:
+```
+```
+## Exemple de class Animale:
+```
+```
+## Exemple de class Animale:
+```
+```

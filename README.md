@@ -294,6 +294,57 @@ public class CompteBancaire {
 ```
 ## Exemple de class Animale:
 ```
+public class Etudiant {
+    // Attributs
+    private String nom;
+    private int age;
+    private double moyenne;
+
+    // Constructeur
+    public Etudiant(String nom, int age, double moyenne) {
+        this.nom = nom;
+        this.age = age;
+        this.moyenne = moyenne;
+    }
+
+    // Getters et Setters pour les attributs
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getMoyenne() {
+        return moyenne;
+    }
+
+    public void setMoyenne(double moyenne) {
+        this.moyenne = moyenne;
+    }
+
+    // Méthode pour afficher les détails de l'étudiant
+    public void afficherDetails() {
+        System.out.println("Nom de l'étudiant : " + nom);
+        System.out.println("Âge de l'étudiant : " + age);
+        System.out.println("Moyenne de l'étudiant : " + moyenne);
+    }
+
+    // Méthode pour vérifier si l'étudiant est admis ou non
+    public boolean estAdmis() {
+        return moyenne >= 10.0;
+    }
+}
+
 ```
 ## Exemple de class Animale:
 ```

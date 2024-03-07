@@ -398,4 +398,38 @@ public class Utilisateur {
     }
 }
 ```
+## Les exeptions:
+>exemple d'utilisation de try-catch pour gérer une exception lors de l'utilisation de la classe 'Utilisateur'
+```
+ String nomUtilisateur = null; // Supposons que le nom de l'utilisateur est null
+
+        try {
+            // Tentative de créer un objet Utilisateur avec le nom récupéré
+            Utilisateur utilisateur = new Utilisateur(nomUtilisateur, "email@example.com", 25);
+            
+            // Affichage des détails de l'utilisateur
+            utilisateur.afficherDetails();
+        } catch (NullPointerException e) {
+            // Gestion de l'exception en cas de nom d'utilisateur null
+            System.out.println("Erreur : Le nom de l'utilisateur est null.");
+            e.printStackTrace();
+        }
+```
+
+>Voici un autre exemple où nous essayons de définir l'âge d'un utilisateur en tant que chaîne de caractères, ce qui peut entraîner une NumberFormatException si la chaîne ne peut pas être convertie en un entier
+```
+ String ageUtilisateur = "trente"; // Supposons que l'âge de l'utilisateur est une chaîne de caractères
+
+        try {
+            // Tentative de créer un objet Utilisateur avec l'âge récupéré
+            Utilisateur utilisateur = new Utilisateur("John Doe", "email@example.com", Integer.parseInt(ageUtilisateur));
+            
+            // Affichage des détails de l'utilisateur
+            utilisateur.afficherDetails();
+        } catch (NumberFormatException e) {
+            // Gestion de l'exception en cas de format d'âge incorrect
+            System.out.println("Erreur : Format d'âge incorrect. L'âge doit être un entier.");
+            e.printStackTrace();
+        }
+```
 

@@ -1,5 +1,53 @@
 # Intro-to-Java-for-testing
+## Ecercise 1:
+> Écrivez un programme appelé CheckPassFail qui afficher "PASS" si la variable entière "mark" est supérieure ou égale à 50 ; ou afficher "FAIL" sinon. Le programme doit toujours afficher "DONE" avant de se terminer.
+```
+public class CheckPassFail {  // Save as "CheckPassFail.java"
+   public static void main(String[] args) {  // Program entry point
+      int mark = 49;   // Set the value of "mark" here!
+      System.out.println("The mark is " + mark);
+ 
+      // if-else statement
+      if ( ...... ) {
+         System.out.println( ...... );
+      } else {
+         System.out.println( ...... );
+      }
+      System.out.println( ...... );
+   }
+}
+```
 
+## Ecercise 2:
+> Écrivez un programme appelé Add2Integers qui invite l'utilisateur à entrer deux entiers. Le programme doit lire les deux entiers en tant qu'entier ; calculer leur somme ; et afficher le résultat. Par exemple,
+```
+Enter first integer: 8
+Enter second integer: 9
+The sum is: 17
+```
+```
+public class Add2Integers {  // Save as "Add2Integers.java"
+   public static void main (String[] args) {
+      // Declare variables
+      int number1, number2, sum;
+
+      // Put up prompting messages and read inputs as "int"
+      Scanner in = new Scanner(System.in);  // Scan the keyboard for input
+      System.out.print("Enter first integer: ");  // No newline for prompting message
+      number1 = in.nextInt();                     // Read next input as "int"
+      
+      System.out.print("Enter second integer: ");  // No newline for prompting message
+      number2 = in.nextInt(); 
+      in.close();  // Close Scanner
+
+      // Compute sum
+      sum = ......
+
+      // Display result
+      System.out.println("The sum is: " + sum);   // Print with newline
+   }
+}
+```
 ##  Reverse a String:
 ```
 import java.util.Scanner;
@@ -176,64 +224,6 @@ public class SortStrings {
 
 ```
 
-# c. Find the Maximum Element in a List of Integers:
-```
-
-```
-
-# c. Find the Maximum Element in a List of Integers:
-```
-
-```
-## Ecercise 1:
-> Écrivez un programme appelé CheckPassFail qui afficher "PASS" si la variable entière "mark" est supérieure ou égale à 50 ; ou afficher "FAIL" sinon. Le programme doit toujours afficher "DONE" avant de se terminer.
-```
-public class CheckPassFail {  // Save as "CheckPassFail.java"
-   public static void main(String[] args) {  // Program entry point
-      int mark = 49;   // Set the value of "mark" here!
-      System.out.println("The mark is " + mark);
- 
-      // if-else statement
-      if ( ...... ) {
-         System.out.println( ...... );
-      } else {
-         System.out.println( ...... );
-      }
-      System.out.println( ...... );
-   }
-}
-```
-
-## Ecercise 2:
-> Écrivez un programme appelé Add2Integers qui invite l'utilisateur à entrer deux entiers. Le programme doit lire les deux entiers en tant qu'entier ; calculer leur somme ; et afficher le résultat. Par exemple,
-```
-Enter first integer: 8
-Enter second integer: 9
-The sum is: 17
-```
-```
-public class Add2Integers {  // Save as "Add2Integers.java"
-   public static void main (String[] args) {
-      // Declare variables
-      int number1, number2, sum;
-
-      // Put up prompting messages and read inputs as "int"
-      Scanner in = new Scanner(System.in);  // Scan the keyboard for input
-      System.out.print("Enter first integer: ");  // No newline for prompting message
-      number1 = in.nextInt();                     // Read next input as "int"
-      
-      System.out.print("Enter second integer: ");  // No newline for prompting message
-      number2 = in.nextInt(); 
-      in.close();  // Close Scanner
-
-      // Compute sum
-      sum = ......
-
-      // Display result
-      System.out.println("The sum is: " + sum);   // Print with newline
-   }
-}
-```
 
 ## Exemple de class Animale:
 ```

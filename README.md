@@ -1,5 +1,5 @@
 # Intro-to-Java-for-testing
-## Ecercise 1:
+## Exercise 1:
 > Écrivez un programme appelé CheckPassFail qui afficher "PASS" si la variable entière "mark" est supérieure ou égale à 50 ; ou afficher "FAIL" sinon. Le programme doit toujours afficher "DONE" avant de se terminer.
 ```
 public class CheckPassFail {  // Save as "CheckPassFail.java"
@@ -18,7 +18,7 @@ public class CheckPassFail {  // Save as "CheckPassFail.java"
 }
 ```
 
-## Ecercise 2:
+## Exercise 2:
 > Écrivez un programme appelé Add2Integers qui invite l'utilisateur à entrer deux entiers. Le programme doit lire les deux entiers en tant qu'entier ; calculer leur somme ; et afficher le résultat. Par exemple,
 ```
 Enter first integer: 8

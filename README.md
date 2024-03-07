@@ -398,8 +398,8 @@ public class Utilisateur {
     }
 }
 ```
-## Les exeptions:
->exemple d'utilisation de try-catch pour gérer une exception lors de l'utilisation de la classe 'Utilisateur'
+## Les exceptions:
+>exemple d'utilisation de **try-catch** pour gérer une exception lors de l'utilisation de la classe 'Utilisateur'
 ```
  String nomUtilisateur = null; // Supposons que le nom de l'utilisateur est null
 
@@ -416,7 +416,7 @@ public class Utilisateur {
         }
 ```
 
->Voici un autre exemple où nous essayons de définir l'âge d'un utilisateur en tant que chaîne de caractères, ce qui peut entraîner une NumberFormatException si la chaîne ne peut pas être convertie en un entier
+>Voici un autre exemple où nous essayons de définir l'âge d'un utilisateur en tant que chaîne de caractères, ce qui peut entraîner une **NumberFormatException** si la chaîne ne peut pas être convertie en un entier
 ```
  String ageUtilisateur = "trente"; // Supposons que l'âge de l'utilisateur est une chaîne de caractères
 
